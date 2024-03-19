@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: #FFD600;
+    text-shadow: 1px 2px 10px #FF151F;
+    -webkit-text-stroke: 0.1px #FF151F;
+  }
+
+  footer {
+    margin: 1rem;
+  }
+
+  .box-shadow-full {
+    padding: 1px 1px;
+    position: relative;
+    background-color: #860a0a;
+    margin-top: 1.5rem;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 1px #FF151F;
+    border-style: dashed #0062d3 1px;
+  }
+
+  .project-button {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 0rem;
+    border: 1px #0b6ab0 solid;
+    transition: all 500ms ease;
+    cursor: pointer;
+    background-color: transparent;
+    color: #0b6ab0;
+    padding: 0.5rem 2.3rem;
+    font-size: 1.0rem;
+  }
+
+  .project-button:hover {
+    background: transparent;
+    border: solid 1px #0b6ab0;
+    box-shadow: 0px 0px 10px 3px #0B6AB0;
+  }
