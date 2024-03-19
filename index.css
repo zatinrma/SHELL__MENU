@@ -49,6 +49,7 @@ footer {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-color: #fff;
 }
 
 /* Caption text */
@@ -89,12 +90,12 @@ footer {
 /* Fading animation */
 .fade_customize {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: .1
   }
 
   to {
@@ -108,4 +109,4 @@ footer {
     font-size: 11px
   }
 }
-/* 3# END DYNAMIC WITH FADE EFFECT */
+/* 3# DYNAMIC WITH FADE EFFECT */

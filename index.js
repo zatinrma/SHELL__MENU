@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function showSlides() {
         let i;
         let slides = document.getElementsByClassName("mySlides");
+        console.log('AAAAAA', slides)
         let dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 8000); // Change image every 2 seconds
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
     }
 
     // 2# DYNAMIC WITH NO EFFECT
