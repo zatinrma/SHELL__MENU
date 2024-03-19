@@ -23,7 +23,7 @@ function show_hide_immediate_change_menu() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Auto Change the Image with White Light Fade In Out 
+    // 3# DYNAMIC WITH FADE EFFECT 
     let slideIndex = 0;
     showSlides();
 
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(showSlides, 8000); // Change image every 2 seconds
     }
 
-    // Code inside this function will run after the DOM has been fully loaded
+    // 2# DYNAMIC WITH NO EFFECT
     let image_1 = document.getElementById('slide_img_1');
     let image_2 = document.getElementById('slide_img_2');
     let images = [
