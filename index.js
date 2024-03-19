@@ -22,6 +22,18 @@ function show_hide_immediate_change_menu() {
     }
 }
 
+function show_hide_immediate_fade_change_menu() {
+    var immediate_fade_menu_change = document.getElementById("immediate_fade_menu_change");
+    var btn_immediate_fade_menu_change = document.getElementById("btn_immediate_fade_menu_change");
+    if (immediate_fade_menu_change.style.display === "none") {
+        immediate_fade_menu_change.style.display = "block"
+        btn_immediate_fade_menu_change.innerText = "Hide 3 Seconds Fade Menu"
+    } else {
+        immediate_fade_menu_change.style.display = "none";
+        btn_immediate_fade_menu_change.innerText = "Show 3 Seconds Fade Menu"
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     // 3# DYNAMIC WITH FADE EFFECT 
     let slideIndex = 0;

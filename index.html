@@ -134,7 +134,7 @@
   </div>
   <!-- 2# END DYNAMIC WITH NO EFFECT -->
   <!-- // 3# DYNAMIC WITH FADE EFFECT -->
-  <div class="container mt-3" id="immediate_fade_menu_change">
+  <div class="container mt-3" id="immediate_fade_menu_change" style="display: none;">
     <div class="row">
       <div class="col-md-6 mx-auto">
         <div class="card box-shadow-full slideshow-container">
@@ -243,7 +243,7 @@
     </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal_customize">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
@@ -256,6 +256,8 @@
                   type="button">Hide Static Menu</button>
                 <button class="btn btn-success" id="btn_immediate_menu_change"
                   onclick="show_hide_immediate_change_menu()" type="button">Show 3 Seconds Menu</button>
+                <button class="btn btn-danger" id="btn_immediate_fade_menu_change"
+                  onclick="show_hide_immediate_fade_change_menu()" type="button">Show 3 Seconds Fade Menu</button>
               </div>
             </div>
           </div>
