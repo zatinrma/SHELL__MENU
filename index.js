@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function showSlides() {
         let i;
         let slides = document.getElementsByClassName("mySlides");
-        console.log('AAAAAA', slides)
         let dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
@@ -75,6 +74,6 @@ document.addEventListener("DOMContentLoaded", function () {
         image_1.src = images[random_1];
         image_2.src = images[random_2];
     }
-    setInterval(random_interval, 3000)
+    setInterval(random_interval, 2000)
 });
 
